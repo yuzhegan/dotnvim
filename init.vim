@@ -5,10 +5,12 @@ set nocompatible
 " Set Dein base path (required)
 let s:dein_base = '/home/david/.local/share/dein'
 
+
 " Set Dein source path (required)
 let s:dein_src = '/home/david/.local/share/dein/repos/github.com/Shougo/dein.vim'
 
 let g:vim_home = expand('~/.config/nvim/')
+
 let g:nvim_plugins_installation_completed=1
 
 " Set Dein runtime path (required)

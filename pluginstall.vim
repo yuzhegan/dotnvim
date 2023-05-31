@@ -34,7 +34,7 @@ call dein#add('theniceboy/vim-snippets', {'lazy':1, 'on_event':'InsertEnter'})
 " format
 call dein#add('Vimjas/vim-python-pep8-indent', {'on_ft': ['python', 'vim-plug'],
 			\'lazy': 1})
-call dein#add('numirias/semshi')
+call dein#add('numirias/semshi', {'build':'UpdateRemotePlugins'})
 
 call dein#add('tweekmonster/braceless.vim', {'for': ['python', 'vim-plug'],
 			\'lazy': 1, 'on_ft': 'python'})
