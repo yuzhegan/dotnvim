@@ -28,7 +28,7 @@ require'fzf-lua'.setup {
 		vertical       = 'down:45%',      -- up|down:size
 		horizontal     = 'right:60%',     -- right|left:size
 		hidden         = 'nohidden',
-		title = true,
+		title = "FzfLua",
 	},
 	keymap = {
 		-- These override the default tables completely
