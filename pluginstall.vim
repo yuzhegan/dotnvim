@@ -100,9 +100,12 @@ call dein#add('Yggdroot/indentLine', {'on_ft': ['python'],
 			\'lazy': 1})
 
 "find and replace
-call dein#add('nvim-lua/plenary.nvim', {'lazy': 1,
-			\'depends': ['nvim-treesitter/nvim-treesitter']})
-call dein#add('nvim-pack/nvim-spectre', {'lazy': 1})
+call dein#add('nvim-lua/plenary.nvim')
+" call dein#add('nvim-pack/nvim-spectre')
+call dein#add('nvim-pack/nvim-spectre', {
+  \ 'on_cmd': 'Spectre',
+  \ 'depends': 'plenary.nvim'
+\ })
 			
 "other visual enhancement
 call dein#add('luochen1990/rainbow', {'on_ft': ['python', 'vim-plug'],
