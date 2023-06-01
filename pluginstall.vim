@@ -61,7 +61,7 @@ call dein#add('ojroques/vim-scrollstatus')
 "file nevagatie
 call dein#add('ibhagwan/fzf-lua')
 call dein#add('junegunn/fzf', {'build': { -> fzf#install() },
-			\'lazy':1})
+			\'depends':'fzf-lua'})
 call dein#add('junegunn/fzf.vim', {'lazy':1})
 call dein#add('kevinhwang91/rnvimr', {'lazy':1})
 call dein#add('airblade/vim-rooter', {'lazy':1})
